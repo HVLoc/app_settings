@@ -56,81 +56,9 @@ class _MyAppState extends State<MyApp> {
 
     actionItems.addAll([
       RaisedButton(
-        child: Text("WIFI"),
-        onPressed: () {
-          AppSettings.openWIFISettings();
-        },
-      ),
-      RaisedButton(
-        child: Text("Location"),
-        onPressed: () {
-          AppSettings.openLocationSettings();
-        },
-      ),
-      RaisedButton(
-        child: Text("Security"),
-        onPressed: () {
-          AppSettings.openSecuritySettings();
-        },
-      ),
-      RaisedButton(
         child: Text("App Settings"),
         onPressed: () {
           AppSettings.openAppSettings();
-        },
-      ),
-      RaisedButton(
-        child: Text("Bluetooth"),
-        onPressed: () {
-          AppSettings.openBluetoothSettings();
-        },
-      ),
-      RaisedButton(
-        child: Text("Data Roaming"),
-        onPressed: () {
-          AppSettings.openDataRoamingSettings();
-        },
-      ),
-      RaisedButton(
-        child: Text("Date"),
-        onPressed: () {
-          AppSettings.openDateSettings();
-        },
-      ),
-      RaisedButton(
-        child: Text("Display"),
-        onPressed: () {
-          AppSettings.openDisplaySettings();
-        },
-      ),
-      RaisedButton(
-        child: Text("Notification"),
-        onPressed: () {
-          AppSettings.openNotificationSettings();
-        },
-      ),
-      RaisedButton(
-        child: Text("Sound"),
-        onPressed: () {
-          AppSettings.openSoundSettings();
-        },
-      ),
-      RaisedButton(
-        child: Text("Internal Storage"),
-        onPressed: () {
-          AppSettings.openInternalStorageSettings();
-        },
-      ),
-      RaisedButton(
-        child: Text("Battery optimization"),
-        onPressed: () {
-          AppSettings.openBatteryOptimizationSettings();
-        },
-      ),
-      RaisedButton(
-        child: Text("NFC"),
-        onPressed: () {
-          AppSettings.openNFCSettings();
         },
       ),
     ]);
